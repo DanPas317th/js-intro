@@ -1,24 +1,28 @@
-const userName = prompt('Enter your name');
-alert('Hello, ' + userName + '.');
-const userAge = Number(prompt('Tell your age'));
-alert('Your age is ' + userAge + '.');
-const nextAge = add(userAge, 1);
-const nextAge = multiply(userAge, 1);
-alert('Next year you should be ' + nextAge + ' years old.')
-if(userAge >= 150){
-    alert('You are an "immortal" cheater.')
-}
-if(userAge >= 18){
-    alert('So, you are an adult.')
-}else{
-    alert('You are not an adult.')
+https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
+
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  const totalGoals = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+  return totalGoals;
 }
 
-function add(a, b){
-    const result = a + b;
-    return result;
+https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
+
+function move (position, roll) {
+    return position + roll * 2;
 }
-function multiply(a, b){
-    const result = a * b;
-    return result;
+
+https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
+
+function greet (name, owner) {
+  if(name===owner){
+    return "Hello boss";
+  }else{
+    return "Hello guest";
+  }
+}
+
+https://www.codewars.com/kata/keep-hydrated-1/train/javascript
+
+function litres(time) {
+  return Math.floor(time / 2);
 }
