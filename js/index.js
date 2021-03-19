@@ -1,3 +1,5 @@
+//task1
+
 https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
 
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
@@ -25,4 +27,28 @@ https://www.codewars.com/kata/keep-hydrated-1/train/javascript
 
 function litres(time) {
   return Math.floor(time / 2);
+}
+
+//task2
+
+https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
+
+function DNAtoRNA(dna) {
+  return dna.replace(/T/g, "U");
+}
+
+https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
+
+var min = function(list){
+    list.sort(function compare(a, b) {
+      return a-b;
+    });
+    return list[0];
+}
+
+var max = function(list){
+    list.sort(function compare(a, b) {
+      return b-a;
+    });
+    return list[0];
 }
