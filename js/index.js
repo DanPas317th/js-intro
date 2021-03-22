@@ -62,3 +62,16 @@ https://www.codewars.com/kata/geometry-basics-circle-circumference-in-2d/train/j
 function circleCircumference(circle) {
   return 2 * Math.PI * circle.radius;
 }
+
+https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript
+
+function giveMeFive(obj){
+  const objectArr = [];
+  for (const key in obj){
+    if(key.length == 5) objectArr.push(key);
+    if(obj[key].length == 5) {
+      objectArr.push(obj[key]);
+    }  
+  }
+  return objectArr;
+}
